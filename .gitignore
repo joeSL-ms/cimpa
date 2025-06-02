@@ -1,0 +1,27 @@
+# Node.js (evita subir dependencias innecesarias)
+node_modules/
+.next/
+out/
+
+# Configuraciones y credenciales privadas
+.env
+.env.local
+.env.development
+.env.production
+public/img/postgresql-17.5-1-windows-x64.exe
+# Archivos de logs y caché
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación (si usas Docker o PM2)
+docker-compose.override.yml
+pm2.log
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+public/img/postgresql-*.exe

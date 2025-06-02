@@ -1,0 +1,9 @@
+.link {
+    transition: color 0.2s ease-in-out;
+    border-radius: 16px;
+  }
+  
+  /* Aplica el color solo cuando el mouse está sobre un enlace específico */
+  .link:hover {
+    color: #B9436B;
+  }
